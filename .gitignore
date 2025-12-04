@@ -1,0 +1,29 @@
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore common Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Mac OS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+
+# Python virtual environment folders anywhere in the tree
+*/venv/
+
+# Optional: ignore generated model artifacts
+*.pkl
+*.joblib
